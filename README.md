@@ -20,13 +20,14 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 
 ## Images of Hardware Components: 
-![App Screenshot](./assets/output/arduino_uno.jpg)
+- Arduino UNO: 
+    ![App Screenshot](./assets/output/arduino_uno.jpg)
+- TFT Display:
+  
+    ![App Screenshot](./assets/output/tftdisplay1.jpg)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+    ![App Screenshot](./assets/output/tftdisplay2.jpg)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Working of code:
 1. **Displaying Hello World:** 
@@ -48,7 +49,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
         - Wait for 2 seconds.
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/helloworld.jpg)
   
 2. **Displaying colorful Hello World:**
 - **Include Libraries:**
@@ -76,7 +77,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - Uses a switch-case statement to handle different hue ranges.
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/colorfulhelloworld.png)
   
 3. **Displaying Rainbow Colorful Strips:**
 - **Libraries:** The code includes two libraries: `MCUFRIEND_kbv` for TFT display control and `Adafruit_GFX` for graphics functions.
@@ -99,7 +100,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - For each pixel row in the display, a horizontal line is drawn with the color corresponding to its section in the rainbow.
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/tftdisplay2.jpg)
   
 4. **Displaying a small Heart Pixel:**
 - **Libraries:** The code includes the MCUFRIEND_kbv library for TFT display control.
@@ -119,7 +120,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - After displaying the image for 5 seconds, the screen is cleared (filled with black) and a 2-second delay is introduced.
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/tftdisplay2.jpg)
   
 5. **Displaying a Random Box Pixel:**
 - **Libraries:** The code includes the `Adafruit_GFX` and `MCUFRIEND_kbv` libraries for graphics and TFT display control.
@@ -141,7 +142,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - The `while (true) {}` statement is optional and can be used to stop the loop, displaying the image once.
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/tftdisplay2.jpg)
   
 6. **Displaying a Circle Shape:** 
 - **Libraries:** The code includes the `Adafruit_GFX` and `MCUFRIEND_kbv` libraries for graphics and TFT display control.
@@ -164,7 +165,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 - ***Output:***
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/output/tftdisplay2.jpg)
   
 ## Steps in Arduino IDE :
 
@@ -173,26 +174,26 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 2. Click on File > New Sketch
 
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/first.png)
 
 4. New window of code editor opens
    
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/second.png)
 
 6. Write the required code in the Code Editor
 
 7. Select the Board according to the specification (Arduino UNO here) COM Port varies from PC to PC.
  
-  ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/third.png)
 
 8. To verify this, head towards Device Manager in PC -> USB Controllers. Check the port number.
      
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/fourth.png)
 
 9. After writing the code click on 'Tick mark' to compile the code.
     
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/fifth.png)
 
 10. This is the final step and click on the right arrow mark to dump the code on the device.
    
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./assets/steps/sixth.png)
