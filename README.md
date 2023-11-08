@@ -100,7 +100,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - For each pixel row in the display, a horizontal line is drawn with the color corresponding to its section in the rainbow.
 - ***Output:***
 
-  ![App Screenshot](./assets/output/tftdisplay2.jpg)
+  ![App Screenshot](./assets/output/colorfulstrips.jpg)
   
 4. **Displaying a small Heart Pixel:**
 - **Libraries:** The code includes the MCUFRIEND_kbv library for TFT display control.
@@ -120,7 +120,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - After displaying the image for 5 seconds, the screen is cleared (filled with black) and a 2-second delay is introduced.
 - ***Output:***
 
-  ![App Screenshot](./assets/output/tftdisplay2.jpg)
+  ![App Screenshot](./assets/output/smallheartpixel.jpg)
   
 5. **Displaying a Random Box Pixel:**
 - **Libraries:** The code includes the `Adafruit_GFX` and `MCUFRIEND_kbv` libraries for graphics and TFT display control.
@@ -142,7 +142,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
    - The `while (true) {}` statement is optional and can be used to stop the loop, displaying the image once.
 - ***Output:***
 
-  ![App Screenshot](./assets/output/tftdisplay2.jpg)
+  ![App Screenshot](./assets/output/boxpixel.jpg)
   
 6. **Displaying a Circle Shape:** 
 - **Libraries:** The code includes the `Adafruit_GFX` and `MCUFRIEND_kbv` libraries for graphics and TFT display control.
@@ -165,7 +165,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 - ***Output:***
 
-  ![App Screenshot](./assets/output/tftdisplay2.jpg)
+  ![App Screenshot](./assets/output/circle.jpg)
   
 ## Steps in Arduino IDE :
 
