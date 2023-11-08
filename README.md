@@ -20,7 +20,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 
 ## Images of Hardware Components: 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./assets/output/arduino_uno.jpg)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
