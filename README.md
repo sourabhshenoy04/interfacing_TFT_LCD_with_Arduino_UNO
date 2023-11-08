@@ -1,1 +1,1 @@
-# Interfacing_TFT_with_Arduino
+# Interfacing_TFT_with_Arduino_UNO
