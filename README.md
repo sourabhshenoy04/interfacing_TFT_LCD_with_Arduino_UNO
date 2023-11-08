@@ -1,4 +1,4 @@
-# Interfacing_TFT_LCD_with_Arduino_UNO
+# Interfacing TFT LCD with Arduino UNO
 
 ## Objectives:
 Basic Interfacing of TFT LCD with Arduino UNO: 
