@@ -8,7 +8,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 4. Displaying a small Heart Pixel
 5. Displaying a Random Box Pixel
 6. Displaying a Circle Shape
-## Tech Stack
+## 🛠  Tech Stack
 
 **Hardware:**
 - 2.4 Inch Touch Screen TFT Display Shield for Arduino UNO
