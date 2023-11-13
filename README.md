@@ -17,7 +17,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 **Software/Tools Used:** 
 - Arduino IDE
-
+- Install the required libraries if you haven't installed it
 
 ## Images of Hardware Components: 
 - Arduino UNO: 
