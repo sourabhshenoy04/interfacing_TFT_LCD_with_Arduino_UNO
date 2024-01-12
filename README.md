@@ -176,24 +176,24 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
   ![App Screenshot](./assets/steps/first.png)
 
-4. New window of code editor opens
+3. New window of code editor opens
    
   ![App Screenshot](./assets/steps/second.png)
 
-6. Write the required code in the Code Editor
+4. Write the required code in the Code Editor
 
-7. Select the Board according to the specification (Arduino UNO here) COM Port varies from PC to PC.
+5. Select the Board according to the specification (Arduino UNO here) COM Port varies from PC to PC.
  
   ![App Screenshot](./assets/steps/third.png)
 
-8. To verify this, head towards Device Manager in PC -> USB Controllers. Check the port number.
+6. To verify this, head towards Device Manager in PC -> USB Controllers. Check the port number.
      
   ![App Screenshot](./assets/steps/fourth.png)
 
-9. After writing the code click on 'Tick mark' to compile the code.
+7. After writing the code click on 'Tick mark' to compile the code.
     
   ![App Screenshot](./assets/steps/fifth.png)
 
-10. This is the final step and click on the right arrow mark to dump the code on the device.
+8. This is the final step and click on the right arrow mark to dump the code on the device.
    
   ![App Screenshot](./assets/steps/sixth.png)
