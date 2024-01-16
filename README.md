@@ -8,6 +8,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 4. Displaying a small Heart Pixel
 5. Displaying a Random Box Pixel
 6. Displaying a Circle Shape
+7. Interfacing Pen with the screen
 ## 🛠  Tech Stack
 
 **Hardware:**
@@ -166,6 +167,38 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 - ***Output:***
 
   ![App Screenshot](./assets/output/circle.jpg)
+
+ 7. **Interfacing Pen with the screen:**
+
+- **Libraries:**
+   - We're using special code packages called libraries to make it easier to work with the TFT display and touch screen.
+
+- **Pin Definitions for TFT Display:**
+   - We're telling the Arduino which pins are connected to different parts of the TFT display.
+
+- **Initialize the TFT Display:**
+   - We're setting up a way for the Arduino to control and communicate with the TFT display.
+
+- **Pin Definitions for Touch Screen:**
+   - We're telling the Arduino which pins are connected to the touch screen.
+
+- **Touch Screen Calibration Constants:**
+   - We're setting some values to help the Arduino understand where you're touching on the screen.
+
+- **Touch Screen Object:**
+   - We're creating a special object (like a tool) that helps the Arduino understand the touches on the screen.
+
+- **Setup Function:**
+   - This is a one-time setup when the Arduino starts. It prepares the TFT display with specific settings.
+
+- **Loop Function:**
+   - This is the main part that keeps running over and over.
+   - It checks if you touched the screen, and if you did, it draws a small line and a filled rectangle at the touched spot on the display.
+
+- ***Output:***
+
+  ![App Screenshot](./assets/output/screenwrite.jpg) 
+
   
 ## Steps in Arduino IDE :
 
