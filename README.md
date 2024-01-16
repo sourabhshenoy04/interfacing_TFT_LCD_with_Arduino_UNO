@@ -20,10 +20,23 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 - Arduino IDE
 - Install the required libraries if you haven't installed it
 
-## Images of Hardware Components: 
-- Arduino UNO: 
+## Explaination of Hardware Components: 
+- Arduino UNO:
+    - The Arduino Uno is based on the ATmega328P microcontroller and is a popular choice for beginners and experienced makers alike. It features a simple and easy-to-use design, making it suitable for a wide range of projects, from             simple LED blinking exercises to more complex applications like robotics and sensor interfacing.
+  - Key Features:
+    - ATmega328P Microcontroller: The heart of the Arduino Uno, responsible for executing the program and controlling connected devices.
+    - Digital and Analog I/O Pins: Provides a variety of pins for interfacing with sensors, actuators, and other electronic components.
+    - USB Interface: Allows easy programming and communication with a computer.
+    - Open-Source Platform: Arduino Uno is based on an open-source platform, enabling a large community of developers and enthusiasts to contribute to its growth and share knowledge.
     ![App Screenshot](./assets/output/arduino_uno.jpg)
 - TFT Display:
+  - The 2.4 Inch Touch Screen TFT Display Shield is a compact and user-friendly display module designed to seamlessly integrate with the Arduino Uno. Equipped with a touch-sensitive screen, this shield enhances the user interface possibilities for Arduino projects.
+
+   - Key Features:
+        - 2.4-Inch TFT LCD Display: Offers vibrant and clear visual output for text and graphics.
+        - Touch Screen Interface: Allows user interaction through touch, opening up possibilities for interactive applications.
+        - Arduino Uno Compatibility: Designed specifically for use with the Arduino Uno microcontroller board.
+        - Easy to Use: The shield format simplifies the connection and integration process, making it accessible for both beginners and experienced developers.
   
     ![App Screenshot](./assets/output/tftdisplay1.jpg)
 
