@@ -197,7 +197,7 @@ Basic Interfacing of TFT LCD with Arduino UNO:
 
 - ***Output:***
 
-  ![App Screenshot](./assets/output/screenwrite.jpg) 
+  ![App Screenshot](./assets/output/screenwrite2.jpg) 
 
   
 ## Steps in Arduino IDE :
